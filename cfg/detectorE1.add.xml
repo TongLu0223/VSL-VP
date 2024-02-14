@@ -1,0 +1,8 @@
+<additional>
+    <inductionLoop id="00" lane="E2_0" period="60"
+                  pos="3050" file="output_E1" firendlyPos="true"/>
+    <inductionLoop id="01" lane="E2_1" period="60"
+                  pos="3050" file="output_E1" firendlyPos="true"/>
+    <inductionLoop id="02" lane="E2_2" period="60"
+                  pos="3050" file="output_E1" firendlyPos="true"/>
+</additional>

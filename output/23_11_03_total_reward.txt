@@ -1,0 +1,4 @@
+Episode 1: Total Reward = 0
+Episode 2: Total Reward = 0
+Episode 1: Total Reward = 0
+Episode 1: Total Reward = 3.00810810810811

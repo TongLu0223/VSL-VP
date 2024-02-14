@@ -1,0 +1,11 @@
+<additional>
+   <entryExitDetector id="00" period="60" file="output_E3" timeThreshold="0.1" speedThreshold="3">
+      <detEntry lane="E2_0" pos="2800" friendlyPos="True"/>
+      <detEntry lane="E2_1" pos="2800" friendlyPos="True"/>
+      <detEntry lane="E2_2" pos="2800" friendlyPos="True"/>
+
+      <detExit lane="E2_0" pos="3050" friendlyPos="True"/>
+      <detExit lane="E2_1" pos="3000" friendlyPos="True"/>
+      <detExit lane="E2_2" pos="3050" friendlyPos="True"/>
+   </entryExitDetector>
+</additional>

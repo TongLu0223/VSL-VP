@@ -1,0 +1,58 @@
+<routes>
+	<vType id="vtypeauto" accel="2" decel="4.5" sigma="0.5" length="4"
+		   minGap="0" maxSpeed="33.33" color="51,153,255" probability="1"
+		   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+		   lanesCount="3" ccAccel="1.5" ploegKp="0.2" ploegKd="0.7" vClass="taxi"
+		   ploegH="0.5" speedFactor="2" laneChangeModel="LC2013" lcOvertakeRight="1"/>
+
+	<vType id="passenger" accel="2" decel="4.5" sigma="0.5" length="4"
+		   minGap="0" maxSpeed="33.33" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" departSpeed="max"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1"/>
+
+	<vType id="passenger2" accel="2" decel="4.5" sigma="0.5" length="4"
+		   minGap="3" maxSpeed="33.33" color="190,201,54" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" departSpeed="max"
+	       carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1"/>
+<!--	<vehicle id="0" depart="0">-->
+<!--		<route edges="E0"/>-->
+<!--		<stop parkingArea="ParkAreaA" duration="20"/>-->
+<!--	</vehicle>-->
+	<route id="highway_route" edges="E0 E1 E2"/>
+	<route id="accident_route" edges="E2"/>
+
+<!--	<vehicle id="v.0.1" depart="0" type="vtypeauto" route="highway_route" departLane="1" departSpeed="20"-->
+<!--			 departPos="10"/>-->
+<!--	<vehicle id="v.0.2" depart="0" type="vtypeauto" route="highway_route" departLane="2" departSpeed="20"-->
+<!--			 departPos="3"/>-->
+<!--	<vehicle id="v.0.3" depart="0" type="vtypeauto" route="highway_route" departLane="0" departSpeed="20"-->
+<!--			 departPos="30"/>-->
+<!--	<vehicle id="v.0.4" depart="0" type="vtypeauto" route="highway_route" departLane="2" departSpeed="20"-->
+<!--			 departPos="53"/>-->
+<!--	<vehicle id="v.0.5" depart="0" type="vtypeauto" route="highway_route" departLane="0" departSpeed="20"-->
+<!--			 departPos="64"/>-->
+<!--	<vehicle id="v.0.6" depart="0" type="vtypeauto" route="highway_route" departLane="1" departSpeed="20"-->
+<!--			 departPos="60"/>-->
+	<vehicle id="v.0.7" depart="0" type="vtypeauto" route="highway_route" departLane="1" departSpeed="20"
+			 departPos="88"/>
+	<vehicle id="v.0.8" depart="0" type="vtypeauto" route="highway_route" departLane="2" departSpeed="20"
+			 departPos="105"/>
+	<vehicle id="v.0.9" depart="0" type="vtypeauto" route="highway_route" departLane="0" departSpeed="20"
+			 departPos="130"/>
+
+<!--	<vehicle id="v.1.1" depart="0" type="passenger" route="highway_route" departLane="0" departSpeed="20"-->
+<!--			 departPos="4"/>-->
+<!--	<vehicle id="v.1.2" depart="0" type="passenger" route="highway_route" departLane="2" departSpeed="20"-->
+<!--			 departPos="33"/>-->
+<!--	<vehicle id="v.1.3" depart="0" type="passenger" route="highway_route" departLane="1" departSpeed="20"-->
+<!--			 departPos="40"/>-->
+<!--	<vehicle id="v.1.4" depart="0" type="passenger" route="highway_route" departLane="2" departSpeed="20"-->
+<!--			 departPos="85"/>-->
+	<vehicle id="v.1.5" depart="0" type="passenger" route="highway_route" departLane="0" departSpeed="20"
+			 departPos="100"/>
+	<vehicle id="v.1.6" depart="0" type="passenger" route="highway_route" departLane="1" departSpeed="20"
+			 departPos="125"/>
+
+
+</routes>
+

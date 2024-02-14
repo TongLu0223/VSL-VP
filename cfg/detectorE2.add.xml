@@ -1,0 +1,11 @@
+<additional>
+   <laneAreaDetector id="lane_index_0" lanes="E2_0" period="60" speedThreshold="3"
+                     pos="2800" endPos="3050" friendlyPos="true" length="0" timeThreshold="0.1"
+                     file="output_E2"/>
+   <laneAreaDetector id="lane_index_1" lanes="E2_1" period="60" speedThreshold="3"
+                     pos="2800" endPos="3000" friendlyPos="true" length="0" timeThreshold="0.1"
+                     file="output_E2"/>
+   <laneAreaDetector id="lane_index_2" lanes="E2_2" period="60" speedThreshold="3"
+                     pos="2800" endPos="3050" friendlyPos="true" length="0" timeThreshold="0.1"
+                     file="output_E2"/>
+</additional>

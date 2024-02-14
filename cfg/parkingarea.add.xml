@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parkingAreas>
+        <parkingArea id="ParkAreaA" lane="E2_1" startPos="3000"
+                     endPos="3050" onRoad="True" roadsideCapacity="5"
+                     angel="45" length="10" capacity="5"/>
+</parkingAreas>
