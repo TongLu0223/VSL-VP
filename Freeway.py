@@ -207,7 +207,6 @@ class Freeway:
 
         prev_zero_row = -1
         prev_zero_col = -1
-
         for i in range(min(num_zeros, len(zero_positions))):
             row, col = zero_positions[i]
 
