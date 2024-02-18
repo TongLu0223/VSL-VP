@@ -320,7 +320,7 @@ class Train(Freeway.Freeway):
                         # print('state_len:', len(state))
                         # get action
                         action = []
-                        if self.episode < 300:
+                        if self.episode < 30:
                             for i in range(len(cav_ids)):
                                 action.append(1)
                         else:
